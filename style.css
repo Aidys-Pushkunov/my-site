@@ -275,16 +275,21 @@ body {
 }
 
 .project-image {
-  position: absolute;
+  /*position: absolute;
   top: 0;
   left: 0;
-  margin: 0;
+  margin: 0;*/
+
+  margin: 0 0 24px;
+  text-align: left;
 }
 
 .project-image img {
   width: 448px;
   height: 256px;
   object-fit: cover;
+
+
 }
 
 .projects p {
